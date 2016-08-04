@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ohE98G6cEeSZe_WBkuFUeQ">
+  <modelElement href="ca.concordia.advanceprog.runner2.uml#_oME-Um6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJx8sW6cEeSZe_WBkuFUeQ" targetItem="_pJyjwG6cEeSZe_WBkuFUeQ" sourceItem="_pJx8sG6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ0Y8G6cEeSZe_WBkuFUeQ" targetItem="_pJ1AAG6cEeSZe_WBkuFUeQ" sourceItem="_pJzx4G6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ5RcW6cEeSZe_WBkuFUeQ" targetItem="_pKDpgG6cEeSZe_WBkuFUeQ" sourceItem="_pJ5RcG6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_pJ5Rcm6cEeSZe_WBkuFUeQ" sourceAnchor="0.0,31.0" targetAnchor="448.0,403.0" superClass="_pKDpgG6cEeSZe_WBkuFUeQ" subClass="_pJyjwG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRdNkG6cEeSZe_WBkuFUeQ"/>
+    <bendpoints xmi:id="_pTTFEG6cEeSZe_WBkuFUeQ" sourceX="-53" targetX="65" targetY="489"/>
+    <bendpoints xmi:id="_pTTFEW6cEeSZe_WBkuFUeQ" sourceX="-53" sourceY="-489" targetX="65"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_pJ5Rc26cEeSZe_WBkuFUeQ" sourceAnchor="0.0,31.0" targetAnchor="448.0,403.0" superClass="_pKDpgG6cEeSZe_WBkuFUeQ" subClass="_pJ1AAG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRd0om6cEeSZe_WBkuFUeQ"/>
+    <bendpoints xmi:id="_pTTsIG6cEeSZe_WBkuFUeQ" sourceX="-58" targetX="65" targetY="1132"/>
+    <bendpoints xmi:id="_pTTsIW6cEeSZe_WBkuFUeQ" sourceX="-58" sourceY="-1132" targetX="65"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_pJ5RdG6cEeSZe_WBkuFUeQ" sourceAnchor="0.0,31.0" targetAnchor="448.0,403.0" superClass="_pKDpgG6cEeSZe_WBkuFUeQ" subClass="_pJ21MG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRebs26cEeSZe_WBkuFUeQ"/>
+    <bendpoints xmi:id="_pTTsIm6cEeSZe_WBkuFUeQ" sourceX="-30" targetX="65" targetY="1262"/>
+    <bendpoints xmi:id="_pTTsI26cEeSZe_WBkuFUeQ" sourceX="-30" sourceY="-1262" targetX="65"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_pJ54gG6cEeSZe_WBkuFUeQ" source="_pKDpgG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oUZM0W6cEeSZe_WBkuFUeQ"/>
+    <visualProperties xmi:id="_pKPPsG6cEeSZe_WBkuFUeQ" position="130.0,130.0"/>
+    <stereotypes xmi:id="_pKB0U26cEeSZe_WBkuFUeQ" name="Reference">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oUZM026cEeSZe_WBkuFUeQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_pKB0UG6cEeSZe_WBkuFUeQ" text=""/>
+    <sourceRole xmi:id="_pKB0UW6cEeSZe_WBkuFUeQ" aggregationKind="NONE" name="">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oUZM0m6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDCcW6cEeSZe_WBkuFUeQ" label="+"/>
+      <cardinality xmi:id="_pKDCcG6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_pKB0Um6cEeSZe_WBkuFUeQ" aggregationKind="NONE" name="map" navigable="true">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTfN4W6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDCc26cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDCcm6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ54gm6cEeSZe_WBkuFUeQ" targetItem="_pKDp2W6cEeSZe_WBkuFUeQ" sourceItem="_pJ54gW6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ6fkG6cEeSZe_WBkuFUeQ" targetItem="_pKDp4W6cEeSZe_WBkuFUeQ" sourceItem="_pJ54g26cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ6fkm6cEeSZe_WBkuFUeQ" targetItem="_pKDp426cEeSZe_WBkuFUeQ" sourceItem="_pJ6fkW6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ7GoG6cEeSZe_WBkuFUeQ" targetItem="_pKDp5W6cEeSZe_WBkuFUeQ" sourceItem="_pJ6fk26cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ7Gom6cEeSZe_WBkuFUeQ" targetItem="_pKDp7W6cEeSZe_WBkuFUeQ" sourceItem="_pJ7GoW6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ7GpG6cEeSZe_WBkuFUeQ" targetItem="_pKDp8W6cEeSZe_WBkuFUeQ" sourceItem="_pJ7Go26cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ7tsW6cEeSZe_WBkuFUeQ" targetItem="_pKDp9W6cEeSZe_WBkuFUeQ" sourceItem="_pJ7tsG6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ7ts26cEeSZe_WBkuFUeQ" targetItem="_pKDp-W6cEeSZe_WBkuFUeQ" sourceItem="_pJ7tsm6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ8UwW6cEeSZe_WBkuFUeQ" targetItem="_pKDp_W6cEeSZe_WBkuFUeQ" sourceItem="_pJ8UwG6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ8Uw26cEeSZe_WBkuFUeQ" targetItem="_pKDqAW6cEeSZe_WBkuFUeQ" sourceItem="_pJ8Uwm6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ870W6cEeSZe_WBkuFUeQ" targetItem="_pKDqBW6cEeSZe_WBkuFUeQ" sourceItem="_pJ870G6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ9i4W6cEeSZe_WBkuFUeQ" targetItem="_pKDqHG6cEeSZe_WBkuFUeQ" sourceItem="_pJ9i4G6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ9i426cEeSZe_WBkuFUeQ" targetItem="_pKDqIm6cEeSZe_WBkuFUeQ" sourceItem="_pJ9i4m6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_pJ-J8W6cEeSZe_WBkuFUeQ" targetItem="_pKDqJm6cEeSZe_WBkuFUeQ" sourceItem="_pJ-J8G6cEeSZe_WBkuFUeQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJx8sG6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJx8sW6cEeSZe_WBkuFUeQ" text="Representation of Critters which is created in level 5&#xD;&#xA;&#xD;&#xA;@author Shahriar&#xD;&#xA; *" item="_pJyjwG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT2aQm6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJzx4G6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ0Y8G6cEeSZe_WBkuFUeQ" text="Representation of Critters which is created in level 1&#xD;&#xA;&#xD;&#xA;@author Shahriar&#xD;&#xA; *" item="_pJ1AAG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT2aQ26cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ5RcG6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ5RcW6cEeSZe_WBkuFUeQ" text="Critter is the main moving element in the game that each critter has x and y&#xD;&#xA;which describes the current location or soon to be moved location&#xD;&#xA;&#xD;&#xA;@author Shahriar Rostami&#xD;&#xA; *" item="_pKDpgG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT6rtG6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ54gW6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ54gm6cEeSZe_WBkuFUeQ" text="Will move the critter toward the path based on dx and dy&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param dx&#xD;&#xA;&#x9; * @param dy&#xD;&#xA;&#x9; * @return If the movement is performed correctly" item="_pKDp2W6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT6rtm6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ54g26cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ6fkG6cEeSZe_WBkuFUeQ" text="In this method the left,right,up and down would be updated based on the&#xD;&#xA;&#x9; * next valid movement" item="_pKDp4W6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT6rt26cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ6fkW6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ6fkm6cEeSZe_WBkuFUeQ" text="Will stop any movement of current critter" item="_pKDp426cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7SwG6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ6fk26cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ7GoG6cEeSZe_WBkuFUeQ" text="This method is to make sure the next movement would be in the area of the&#xD;&#xA;&#x9; * our map with the preferred dimension&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param x&#xD;&#xA;&#x9; * @param y&#xD;&#xA;&#x9; * @return" item="_pKDp5W6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7Sw26cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ7GoW6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ7Gom6cEeSZe_WBkuFUeQ" text="checks for the right&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return right variable" item="_pKDp7W6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7SxW6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ7Go26cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ7GpG6cEeSZe_WBkuFUeQ" text="setter for the right variable&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param right" item="_pKDp8W6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7Sxm6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ7tsG6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ7tsW6cEeSZe_WBkuFUeQ" text="checks for the down&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return down variable" item="_pKDp9W6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7Sx26cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ7tsm6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ7ts26cEeSZe_WBkuFUeQ" text="setter for the down&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param down" item="_pKDp-W6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7SyG6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ8UwG6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ8UwW6cEeSZe_WBkuFUeQ" text="setter for the existing life and is called by engine when the critter in&#xD;&#xA;&#x9; * the area of shooting of towers&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param existingLife" item="_pKDp_W6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7SyW6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ8Uwm6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ8Uw26cEeSZe_WBkuFUeQ" text="current position of critter in X-Axis&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return x" item="_pKDqAW6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7Sym6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ870G6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ870W6cEeSZe_WBkuFUeQ" text="Create an instance of critter based on map x and y to locate the movement&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param map&#xD;&#xA;&#x9; * @param x&#xD;&#xA;&#x9; * @param y" item="_pKDqBW6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT6rtW6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ9i4G6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ9i4W6cEeSZe_WBkuFUeQ" text="Physically move critter based on delta and those variable with set in&#xD;&#xA;&#x9; * determineMovement method&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param delta&#xD;&#xA;&#x9; * @param map" item="_pKDqHG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7SwW6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ9i4m6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ9i426cEeSZe_WBkuFUeQ" text="After the movement has been taken place, the paint method is responsible&#xD;&#xA;&#x9; * to show the new position of critter&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param graphic" item="_pKDqIm6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7Swm6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_pJ-J8G6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_pJ-J8W6cEeSZe_WBkuFUeQ" text="This method is used in when we want to show a circle around a tower for&#xD;&#xA;&#x9; * the range of shooting&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param graphic&#xD;&#xA;&#x9; *            is the handle for depicting objects on it" item="_pKDqJm6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT7SxG6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pJyjwG6cEeSZe_WBkuFUeQ" comments="_pJx8sG6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJx8sW6cEeSZe_WBkuFUeQ" name="HighLevelCritter" generalizations="_pJ5Rcm6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNodhG6cEeSZe_WBkuFUeQ"/>
+    <visualProperties xmi:id="_pJyjwW6cEeSZe_WBkuFUeQ" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pJyjwm6cEeSZe_WBkuFUeQ" label="+"/>
+    <operations xmi:id="_pJyjw26cEeSZe_WBkuFUeQ" name="HighLevelCritter">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRcmgW6cEeSZe_WBkuFUeQ"/>
+      <keywords xmi:id="_pJyjxG6cEeSZe_WBkuFUeQ" keyword="create"/>
+      <visibility xmi:id="_pJyjxW6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pJyjxm6cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRcmh26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJyjx26cEeSZe_WBkuFUeQ" name="HighLevelCritter">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNodhG6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pJyjyG6cEeSZe_WBkuFUeQ" name="map">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRcmgm6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJyjyW6cEeSZe_WBkuFUeQ" name="Map">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oN1R0G6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pJyjym6cEeSZe_WBkuFUeQ" name="x">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRcmg26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJyjy26cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pJyjzG6cEeSZe_WBkuFUeQ" name="y">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRcmhG6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJyjzW6cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pJ1AAG6cEeSZe_WBkuFUeQ" comments="_pJzx4G6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ0Y8G6cEeSZe_WBkuFUeQ" name="LowLevelCritter" generalizations="_pJ5Rc26cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNproG6cEeSZe_WBkuFUeQ"/>
+    <visualProperties xmi:id="_pJ1AAW6cEeSZe_WBkuFUeQ" position="55.0,693.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pJ1AAm6cEeSZe_WBkuFUeQ" label="+"/>
+    <operations xmi:id="_pJ1AA26cEeSZe_WBkuFUeQ" name="LowLevelCritter">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRdNkW6cEeSZe_WBkuFUeQ"/>
+      <keywords xmi:id="_pJ1ABG6cEeSZe_WBkuFUeQ" keyword="create"/>
+      <visibility xmi:id="_pJ1ABW6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pJ1ABm6cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRd0oW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJ1AB26cEeSZe_WBkuFUeQ" name="LowLevelCritter">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNproG6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pJ1ACG6cEeSZe_WBkuFUeQ" name="map">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRdNkm6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJ1ACW6cEeSZe_WBkuFUeQ" name="Map">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oN1R0G6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pJ1ACm6cEeSZe_WBkuFUeQ" name="x">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRdNk26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJ1AC26cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pJ1ADG6cEeSZe_WBkuFUeQ" name="y">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRdNlG6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJ1ADW6cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pJ21MG6cEeSZe_WBkuFUeQ" name="MediumLevelCritter" generalizations="_pJ5RdG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNq5wG6cEeSZe_WBkuFUeQ"/>
+    <visualProperties xmi:id="_pJ21MW6cEeSZe_WBkuFUeQ" position="27.0,823.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pJ21Mm6cEeSZe_WBkuFUeQ" label="+"/>
+    <operations xmi:id="_pJ21M26cEeSZe_WBkuFUeQ" name="MediumLevelCritter">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRd0o26cEeSZe_WBkuFUeQ"/>
+      <keywords xmi:id="_pJ21NG6cEeSZe_WBkuFUeQ" keyword="create"/>
+      <visibility xmi:id="_pJ21NW6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pJ21Nm6cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRebsm6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJ21N26cEeSZe_WBkuFUeQ" name="MediumLevelCritter">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNq5wG6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pJ21OG6cEeSZe_WBkuFUeQ" name="map">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRd0pG6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJ21OW6cEeSZe_WBkuFUeQ" name="Map">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oN1R0G6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pJ21Om6cEeSZe_WBkuFUeQ" name="x">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRd0pW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJ21O26cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pJ21PG6cEeSZe_WBkuFUeQ" name="y">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRd0pm6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pJ21PW6cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pKDpgG6cEeSZe_WBkuFUeQ" comments="_pJ5RcG6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ5RcW6cEeSZe_WBkuFUeQ" name="Critter" associationsOut="_pJ54gG6cEeSZe_WBkuFUeQ" subclassedBy="_pJ5Rcm6cEeSZe_WBkuFUeQ _pJ5Rc26cEeSZe_WBkuFUeQ _pJ5RdG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOfZIG6cEeSZe_WBkuFUeQ"/>
+    <visualProperties xmi:id="_pKDpgW6cEeSZe_WBkuFUeQ" position="-516.0,-811.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pKDpgm6cEeSZe_WBkuFUeQ" label="+"/>
+    <attributes xmi:id="_pKDpg26cEeSZe_WBkuFUeQ" name="x">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTd_wG6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDphG6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTem0G6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDphW6cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDphm6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDph26cEeSZe_WBkuFUeQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpiG6cEeSZe_WBkuFUeQ" name="y">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTem0W6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpiW6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTem0m6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpim6cEeSZe_WBkuFUeQ" label="+"/>
+      <cardinality xmi:id="_pKDpi26cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpjG6cEeSZe_WBkuFUeQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpjW6cEeSZe_WBkuFUeQ" name="map">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTfN4W6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpjm6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTfN4m6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_pKDCdG6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTfN4m6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpj26cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDpkG6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpkW6cEeSZe_WBkuFUeQ" name="Map">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oN1R0G6cEeSZe_WBkuFUeQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpkm6cEeSZe_WBkuFUeQ" name="ang">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTfN426cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpk26cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTf08G6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDplG6cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDplW6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDplm6cEeSZe_WBkuFUeQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpl26cEeSZe_WBkuFUeQ" defaultValue="&quot;0,0&quot;" name="lastCell">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTf08W6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpmG6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTf0826cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpmW6cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDpmm6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpm26cEeSZe_WBkuFUeQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpnG6cEeSZe_WBkuFUeQ" defaultValue="0" name="currentPathIndex">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTf09G6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpnW6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTgcAG6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpnm6cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDpn26cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpoG6cEeSZe_WBkuFUeQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpoW6cEeSZe_WBkuFUeQ" defaultValue="100" name="existingLife">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTgcAW6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDpom6cEeSZe_WBkuFUeQ" label="+"/>
+      <cardinality xmi:id="_pKDpo26cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDppG6cEeSZe_WBkuFUeQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDppW6cEeSZe_WBkuFUeQ" defaultValue="false" name="toReduceTheMoney">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTgcA26cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDppm6cEeSZe_WBkuFUeQ" label="+"/>
+      <cardinality xmi:id="_pKDpp26cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpqG6cEeSZe_WBkuFUeQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpqW6cEeSZe_WBkuFUeQ" defaultValue="true" name="flaggedToStopReduce">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTgcBW6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpqm6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oThDEG6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpq26cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDprG6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDprW6cEeSZe_WBkuFUeQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDprm6cEeSZe_WBkuFUeQ" defaultValue="0.0f" name="calcuatedX">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oThDEW6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpr26cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oThDE26cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpsG6cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDpsW6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpsm6cEeSZe_WBkuFUeQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDps26cEeSZe_WBkuFUeQ" defaultValue="0.0f" name="calcuatedy">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oThDFG6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDptG6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oThqIW6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDptW6cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDptm6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpt26cEeSZe_WBkuFUeQ" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpuG6cEeSZe_WBkuFUeQ" name="left">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oThqIm6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDpuW6cEeSZe_WBkuFUeQ" label="+"/>
+      <cardinality xmi:id="_pKDpum6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpu26cEeSZe_WBkuFUeQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpvG6cEeSZe_WBkuFUeQ" name="right">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oThqI26cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpvW6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTiRMG6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpvm6cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDpv26cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpwG6cEeSZe_WBkuFUeQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpwW6cEeSZe_WBkuFUeQ" name="up">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTiRMW6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDpwm6cEeSZe_WBkuFUeQ" label="+"/>
+      <cardinality xmi:id="_pKDpw26cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpxG6cEeSZe_WBkuFUeQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpxW6cEeSZe_WBkuFUeQ" name="down">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTiRMm6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpxm6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTiRM26cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpx26cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDpyG6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpyW6cEeSZe_WBkuFUeQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpym6cEeSZe_WBkuFUeQ" defaultValue="false" name="stop">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTiRNG6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDpy26cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTi4QW6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDpzG6cEeSZe_WBkuFUeQ" label="-"/>
+      <cardinality xmi:id="_pKDpzW6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDpzm6cEeSZe_WBkuFUeQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDpz26cEeSZe_WBkuFUeQ" name="centerX">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTi4Qm6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDp0G6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTi4Q26cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDp0W6cEeSZe_WBkuFUeQ" label="+"/>
+      <cardinality xmi:id="_pKDp0m6cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDp026cEeSZe_WBkuFUeQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pKDp1G6cEeSZe_WBkuFUeQ" name="centerY">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTi4RG6cEeSZe_WBkuFUeQ"/>
+      <stereotypes xmi:id="_pKDp1W6cEeSZe_WBkuFUeQ" name="LegacyStyledElement">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oTjfUG6cEeSZe_WBkuFUeQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pKDp1m6cEeSZe_WBkuFUeQ" label="+"/>
+      <cardinality xmi:id="_pKDp126cEeSZe_WBkuFUeQ" label="1" max="1" min="1"/>
+      <type xmi:id="_pKDp2G6cEeSZe_WBkuFUeQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_pKDp2W6cEeSZe_WBkuFUeQ" comments="_pJ54gW6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ54gm6cEeSZe_WBkuFUeQ" name="move">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOhOUG6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp2m6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pKDp226cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOh1Ym6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp3G6cEeSZe_WBkuFUeQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pKDp3W6cEeSZe_WBkuFUeQ" name="dx">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOh1YG6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp3m6cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDp326cEeSZe_WBkuFUeQ" name="dy">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOh1YW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp4G6cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDp4W6cEeSZe_WBkuFUeQ" comments="_pJ54g26cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ6fkG6cEeSZe_WBkuFUeQ" name="determineMovement">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOh1Y26cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp4m6cEeSZe_WBkuFUeQ" label="+"/>
+    </operations>
+    <operations xmi:id="_pKDp426cEeSZe_WBkuFUeQ" comments="_pJ6fkW6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ6fkm6cEeSZe_WBkuFUeQ" name="stop">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOiccG6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp5G6cEeSZe_WBkuFUeQ" label="-"/>
+    </operations>
+    <operations xmi:id="_pKDp5W6cEeSZe_WBkuFUeQ" comments="_pJ6fk26cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ7GoG6cEeSZe_WBkuFUeQ" name="proceedToMove" staticOperation="true">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOiccW6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp5m6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pKDp526cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOjDgW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp6G6cEeSZe_WBkuFUeQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pKDp6W6cEeSZe_WBkuFUeQ" name="x">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOiccm6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp6m6cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDp626cEeSZe_WBkuFUeQ" name="y">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOjDgG6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp7G6cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDp7W6cEeSZe_WBkuFUeQ" comments="_pJ7GoW6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ7Gom6cEeSZe_WBkuFUeQ" name="isRight">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOjDgm6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp7m6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pKDp726cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOjDg26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp8G6cEeSZe_WBkuFUeQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pKDp8W6cEeSZe_WBkuFUeQ" comments="_pJ7Go26cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ7GpG6cEeSZe_WBkuFUeQ" name="setRight">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOjqkG6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp8m6cEeSZe_WBkuFUeQ" label="+"/>
+      <parameters xmi:id="_pKDp826cEeSZe_WBkuFUeQ" name="right">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOjqkW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp9G6cEeSZe_WBkuFUeQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDp9W6cEeSZe_WBkuFUeQ" comments="_pJ7tsG6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ7tsW6cEeSZe_WBkuFUeQ" name="isDown">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOkRoG6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp9m6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pKDp926cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOkRoW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp-G6cEeSZe_WBkuFUeQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pKDp-W6cEeSZe_WBkuFUeQ" comments="_pJ7tsm6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ7ts26cEeSZe_WBkuFUeQ" name="setDown">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOkRom6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp-m6cEeSZe_WBkuFUeQ" label="+"/>
+      <parameters xmi:id="_pKDp-26cEeSZe_WBkuFUeQ" name="down">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOkRo26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDp_G6cEeSZe_WBkuFUeQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDp_W6cEeSZe_WBkuFUeQ" comments="_pJ8UwG6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ8UwW6cEeSZe_WBkuFUeQ" name="setExistingLife">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOk4sG6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDp_m6cEeSZe_WBkuFUeQ" label="+"/>
+      <parameters xmi:id="_pKDp_26cEeSZe_WBkuFUeQ" name="existingLife">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOk4sW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqAG6cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDqAW6cEeSZe_WBkuFUeQ" comments="_pJ8Uwm6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ8Uw26cEeSZe_WBkuFUeQ" name="getX">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOk4sm6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDqAm6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pKDqA26cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOk4s26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqBG6cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_pKDqBW6cEeSZe_WBkuFUeQ" comments="_pJ870G6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ870W6cEeSZe_WBkuFUeQ" name="Critter">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXMgG6cEeSZe_WBkuFUeQ"/>
+      <keywords xmi:id="_pKDqBm6cEeSZe_WBkuFUeQ" keyword="create"/>
+      <visibility xmi:id="_pKDqB26cEeSZe_WBkuFUeQ" label="#"/>
+      <outParameters xmi:id="_pKDqCG6cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXzkW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqCW6cEeSZe_WBkuFUeQ" name="Critter">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOfZIG6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pKDqCm6cEeSZe_WBkuFUeQ" name="map">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXMgW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqC26cEeSZe_WBkuFUeQ" name="Map">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oN1R0G6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqDG6cEeSZe_WBkuFUeQ" name="x">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXMgm6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqDW6cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqDm6cEeSZe_WBkuFUeQ" name="y">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXMg26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqD26cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDqEG6cEeSZe_WBkuFUeQ" name="createCritter" staticOperation="true">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXzkm6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDqEW6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_pKDqEm6cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXzl26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqE26cEeSZe_WBkuFUeQ" name="Critter">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oOfZIG6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pKDqFG6cEeSZe_WBkuFUeQ" name="map">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXzk26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqFW6cEeSZe_WBkuFUeQ" name="Map">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oN1R0G6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqFm6cEeSZe_WBkuFUeQ" name="x">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXzlG6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqF26cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqGG6cEeSZe_WBkuFUeQ" name="y">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXzlW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqGW6cEeSZe_WBkuFUeQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqGm6cEeSZe_WBkuFUeQ" name="level">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSXzlm6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqG26cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDqHG6cEeSZe_WBkuFUeQ" comments="_pJ9i4G6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ9i4W6cEeSZe_WBkuFUeQ" name="moving">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSYaoG6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDqHW6cEeSZe_WBkuFUeQ" label="+"/>
+      <parameters xmi:id="_pKDqHm6cEeSZe_WBkuFUeQ" name="delta">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSYaoW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqH26cEeSZe_WBkuFUeQ" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqIG6cEeSZe_WBkuFUeQ" name="map">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oSYaom6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqIW6cEeSZe_WBkuFUeQ" name="Map">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oN1R0G6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDqIm6cEeSZe_WBkuFUeQ" comments="_pJ9i4m6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ9i426cEeSZe_WBkuFUeQ" name="paint">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oS3i0G6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDqI26cEeSZe_WBkuFUeQ" label="+"/>
+      <parameters xmi:id="_pKDqJG6cEeSZe_WBkuFUeQ" name="graphic">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oS3i0W6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqJW6cEeSZe_WBkuFUeQ" name="Graphics2D">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRg38G6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pKDqJm6cEeSZe_WBkuFUeQ" comments="_pJ-J8G6cEeSZe_WBkuFUeQ" targetConnectionVisual="_pJ-J8W6cEeSZe_WBkuFUeQ" name="drawCircle">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oS4J4G6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_pKDqJ26cEeSZe_WBkuFUeQ" label="+"/>
+      <parameters xmi:id="_pKDqKG6cEeSZe_WBkuFUeQ" name="graphic">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oS4J4W6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqKW6cEeSZe_WBkuFUeQ" name="Graphics2D">
+          <modelElement href="ca.concordia.advanceprog.runner2.uml#_oRg38G6cEeSZe_WBkuFUeQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqKm6cEeSZe_WBkuFUeQ" name="x">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oS4J4m6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqK26cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqLG6cEeSZe_WBkuFUeQ" name="y">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oS4J426cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqLW6cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pKDqLm6cEeSZe_WBkuFUeQ" name="radius">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oS4J5G6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_pKDqL26cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

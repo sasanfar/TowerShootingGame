@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_oho-oG6cEeSZe_WBkuFUeQ">
+  <modelElement href="ca.concordia.advanceprog.runner2.uml#_oMLE8m6cEeSZe_WBkuFUeQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qDvqkG6cEeSZe_WBkuFUeQ" targetItem="_qDwRoG6cEeSZe_WBkuFUeQ" sourceItem="_qDvDgG6cEeSZe_WBkuFUeQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qDvDgG6cEeSZe_WBkuFUeQ" sourceConnectionVisual="_qDvqkG6cEeSZe_WBkuFUeQ" text="We can put general purpose methods here, such as collection helpers and this&#xD;&#xA;randInt that I need for the initial version All Utility methods are most of&#xD;&#xA;the time static&#xD;&#xA;&#xD;&#xA;@author Shahriar Rostami&#xD;&#xA; *" item="_qDwRoG6cEeSZe_WBkuFUeQ">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oT2aQW6cEeSZe_WBkuFUeQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qDwRoG6cEeSZe_WBkuFUeQ" comments="_qDvDgG6cEeSZe_WBkuFUeQ" targetConnectionVisual="_qDvqkG6cEeSZe_WBkuFUeQ" name="Utility">
+    <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNn2cG6cEeSZe_WBkuFUeQ"/>
+    <visualProperties xmi:id="_qDwRoW6cEeSZe_WBkuFUeQ" position="50.0,50.0"/>
+    <visibility xmi:id="_qDwRom6cEeSZe_WBkuFUeQ" label="+"/>
+    <operations xmi:id="_qDwRo26cEeSZe_WBkuFUeQ" name="randInt" staticOperation="true">
+      <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNodgG6cEeSZe_WBkuFUeQ"/>
+      <visibility xmi:id="_qDwRpG6cEeSZe_WBkuFUeQ" label="+"/>
+      <outParameters xmi:id="_qDwRpW6cEeSZe_WBkuFUeQ">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNodg26cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_qDwRpm6cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qDwRp26cEeSZe_WBkuFUeQ" name="min">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNodgW6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_qDwRqG6cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qDwRqW6cEeSZe_WBkuFUeQ" name="max">
+        <modelElement href="ca.concordia.advanceprog.runner2.uml#_oNodgm6cEeSZe_WBkuFUeQ"/>
+        <type xmi:id="_qDwRqm6cEeSZe_WBkuFUeQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
